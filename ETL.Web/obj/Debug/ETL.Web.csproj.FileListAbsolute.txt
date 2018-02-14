@@ -1,0 +1,11 @@
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL.Web\bin\Debug\ETL.Web.dll
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL.Web\bin\Debug\ETL.Web.pdb
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL.Web\obj\Debug\ETL.Web.csprojResolveAssemblyReference.cache
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL.Web\obj\Debug\ETL.Web.csproj.CoreCompileInputs.cache
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL.Web\obj\Debug\ETL.Web.dll
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL.Web\obj\Debug\ETL.Web.pdb
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL.Web\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL.Web\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL.Web\bin\Debug\ETL.Core.dll
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL.Web\bin\Debug\ETL.Core.pdb
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL.Web\bin\Debug\ETL.Core.dll.config
