@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4BFF7B6F-C4D5-49F3-8CE3-79F7CE0FC563}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ETL</RootNamespace>
+    <AssemblyName>ETL.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\ControllerType.cs" />
+    <Compile Include="Controllers\EtlController.cs" />
+    <Compile Include="Controllers\Export\ExportController.cs" />
+    <Compile Include="Controllers\Import\ImportController.cs" />
+    <Compile Include="Controllers\MuliPageEventArgs.cs" />
+    <Compile Include="Converters\EnumToDescriptionConverter.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="FieldNameHelper.cs" />
+    <Compile Include="FormulaBuilder.cs" />
+    <Compile Include="InternalsVisibleTo.cs" />
+    <Compile Include="Models\Data\DataType.cs" />
+    <Compile Include="Models\Data\PageCell.cs" />
+    <Compile Include="Models\Data\PageCellCollection.cs" />
+    <Compile Include="Models\Data\PageColumn.cs" />
+    <Compile Include="Models\Data\PageColumnCollection.cs" />
+    <Compile Include="Models\Data\PageRow.cs" />
+    <Compile Include="Models\Data\PageRowCollection.cs" />
+    <Compile Include="Models\Data\Validation\RegexValidator.cs" />
+    <Compile Include="Models\Data\Validation\Validator.cs" />
+    <Compile Include="Models\Data\Validation\ValidatorType.cs" />
+    <Compile Include="Models\ExporterInfo.cs" />
+    <Compile Include="Models\FieldConfig.cs" />
+    <Compile Include="Models\FieldFilter.cs" />
+    <Compile Include="Models\FieldType.cs" />
+    <Compile Include="Models\FilterAction.cs" />
+    <Compile Include="Models\FilterType.cs" />
+    <Compile Include="Models\Data\Page.cs" />
+    <Compile Include="Models\ImporterInfo.cs" />
+    <Compile Include="Models\PageConfig.cs" />
+    <Compile Include="Models\Result.cs" />
+    <Compile Include="Models\Source.cs" />
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegexExpressions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+  </Target>
+</Project>

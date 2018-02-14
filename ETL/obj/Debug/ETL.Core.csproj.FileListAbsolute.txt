@@ -1,0 +1,7 @@
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL\bin\Debug\ETL.Core.dll.config
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL\bin\Debug\ETL.Core.dll
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL\bin\Debug\ETL.Core.pdb
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL\obj\Debug\ETL.Core.csproj.CoreCompileInputs.cache
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL\obj\Debug\ETL.Core.dll
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL\obj\Debug\ETL.Core.pdb
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL\obj\Debug\ETL.Core.csprojResolveAssemblyReference.cache
