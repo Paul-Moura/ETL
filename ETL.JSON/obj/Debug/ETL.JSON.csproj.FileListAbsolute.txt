@@ -1,0 +1,6 @@
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL.JSON\bin\Debug\ETL.JSON.dll
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL.JSON\bin\Debug\ETL.JSON.pdb
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL.JSON\obj\Debug\ETL.JSON.csprojResolveAssemblyReference.cache
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL.JSON\obj\Debug\ETL.JSON.dll
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL.JSON\obj\Debug\ETL.JSON.pdb
+C:\Users\pmoura\Dropbox\Projects\Repository\ETL\ETL.JSON\obj\Debug\ETL.JSON.csproj.CoreCompileInputs.cache
